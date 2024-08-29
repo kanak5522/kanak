@@ -24,7 +24,7 @@ resource "aws_dynamodb_table" "terraform_lock" {
   
 }
 
-resource "aws_instance" "knk" {
+resource "aws_instance" "kk" {
     instance_type = "t2.micro"
     ami ="ami-07b48a61d685adada"
     subnet_id = "subnet-0a2ded97b4c525dda"
